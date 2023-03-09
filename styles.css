@@ -73,8 +73,45 @@ footer  a {
 } */
 
 /* Skill Cards CSS */
+
 .skill-cards-container {
     width: 80%;
-    margin: 10px auto;
+    margin: 60px auto;
     border: 1px solid red;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skill-cards-container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skill-card {
+    display: inline-block;
+    margin: 0 24px;
+    width: 20%;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.skill-card img {
+
+    width: 100%;
+    height: 200px;
+    border: 2px solid
+}
+.skill-card hr {
+    margin: 10px 0;
+}
+.box-shadow-type-1 {
+    
+    box-shadow: -7px 6px 5px 5px black;
+}
+.box-shadow-type-2 {
+    
+    box-shadow: 7px 6px 5px 5px black;
 }
