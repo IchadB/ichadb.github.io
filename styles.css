@@ -5,6 +5,11 @@
 }
 
 /* INDEX CSS */
+.header {
+
+    position: sticky;
+    top: 0;
+}
 
 header > .navbar {
     background-color: #333456;
@@ -48,11 +53,13 @@ text-shadow: 3px 0px 7px rgba(81,67,21,0.8),
     border-radius: 50%;
     border: 1.5px solid;
 }
+footer {
+    background-color: #060930;
+}
 footer address {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #060930;
     color: white;
     padding: 20px;
     text-align: center;
@@ -63,24 +70,26 @@ footer  a {
     text-decoration: none;
     color: white;
 }
-/* @media (max-width: 600px) and (min-width: 350px) {
-    .navbar > .nav-link-list > ul {
-        display: block;
-    }
-    header > .navbar {
-        display: block;
-    }
-} */
 
 /* Skill Cards CSS */
 
+.skill-cards-header h1 {
+    text-align: center;
+    background-color: #2C3333;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
 .skill-cards-container {
     width: 80%;
-    margin: 60px auto;
-    border: 1px solid red;
-    /* display: flex;
-    justify-content: space-between; */
-    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #2E4F4F;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
     box-sizing: border-box;
 }
 
@@ -90,12 +99,11 @@ footer  a {
 }
 
 .skill-card {
-    display: inline-block;
-    margin: 0 24px;
-    width: 20%;
     height: auto;
     border: 1px solid black;
     padding: 10px;
+    flex: 1;
+    background-color: #2E4F4F;
 }
 
 .skill-card img {
@@ -114,4 +122,8 @@ footer  a {
 .box-shadow-type-2 {
     
     box-shadow: 7px 6px 5px 5px black;
+}
+.skill-card h2, p {
+    background-color: #CBE4DE;
+    padding: 10px;
 }
